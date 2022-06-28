@@ -487,7 +487,7 @@
          <font>
             <Font name="System Bold" size="14.0" />
          </font></Button>
-      <Button fx:id="settingsButton" layoutX="417.0" layoutY="152.0" mnemonicParsing="false" onAction="#switchToSettings" text="Settings" textFill="#1b7461">
+      <Button fx:id="settingsButton" layoutX="417.0" layoutY="152.0" mnemonicParsing="false" onAction="#switchtosettings" text="Settings" textFill="#1b7461">
          <font>
             <Font name="Agency FB Bold" size="15.0" />
          </font></Button>

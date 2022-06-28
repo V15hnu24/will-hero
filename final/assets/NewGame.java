@@ -488,22 +488,22 @@ public class NewGame implements Initializable {
         rotateTransition.setCycleCount(RotateTransition.INDEFINITE);
         rotateTransition.setByAngle(150);
         rotateTransition.play();
-
-        chest = new Image("sample/assets/ChestClosed.png");
-        Paint paint = new ImagePattern(chest);
-        chest1.setFill(paint);
-        chest2.setFill(paint);
-        chest3.setFill(paint);
-
-        tnt = new Image("sample/assets/TNT.png");
-        Paint p = new ImagePattern(tnt);
-        tnt1.setFill(p);
-        tnt2.setFill(p);
-        chestOpen = new Image("sample/assets/ChestOpen.png");
-        chestOpenPaint = new ImagePattern(chestOpen);
-
-        blastImg = new Image("sample/assets/blast.jpg");
-        blastImgPaint = new ImagePattern(blastImg);
+//
+//        chest = new Image("ChestOpen.png");
+//        Paint paint = new ImagePattern(chest);
+//        chest1.setFill(paint);
+//        chest2.setFill(paint);
+//        chest3.setFill(paint);
+//
+//        tnt = new Image("TNT.png");
+//        Paint p = new ImagePattern(tnt);
+//        tnt1.setFill(p);
+//        tnt2.setFill(p);
+//        chestOpen = new Image("ChestOpen.png");
+//        chestOpenPaint = new ImagePattern(chestOpen);
+//
+//        blastImg = new Image("../blast.jpg");
+//        blastImgPaint = new ImagePattern(blastImg);
 
         redOrcMovement1 = new redOrcMovement(redOrc1);
         redOrcMovement2 = new redOrcMovement(redOrc2);
